@@ -32,6 +32,7 @@ Vercel用户界面汉化脚本，支持自动将Vercel网站界面翻译为中�
 
 2. 点击下方链接安装脚本：
    - [安装 Vercel 汉化脚本](https://github.com/quan-ge/vercel-chinese-pro/raw/main/vercel-chinese.user.js)
+   - [镜像加速](https://proxy.pipers.cn/https://github.com/quan-ge/vercel-chinese-pro/raw/main/vercel-chinese.user.js)
 
 3. 脚本会自动在Vercel网站界面启用，刷新页面即可看到汉化效果
 
