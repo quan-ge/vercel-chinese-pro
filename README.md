@@ -6,7 +6,7 @@ Vercel用户界面汉化脚本，支持自动将Vercel网站界面翻译为中�
 >
 > 基于原版修改：
 >
-> 1. 完善部分未翻译部分
+> 1. 完善部分翻译
 >
 > 2. 增加部分句子翻译
 >
@@ -26,6 +26,7 @@ Vercel用户界面汉化脚本，支持自动将Vercel网站界面翻译为中�
    - Chrome/Edge: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
    - Firefox: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
    - Safari: 安装 [Tampermonkey](https://www.tampermonkey.net/)
+   - 使用ScriptCat(脚本猫)出现的兼容问题概不负责。
 
 2. 点击下方链接安装脚本：
    - [安装 Vercel 汉化脚本](https://github.com/quan-ge/vercel-chinese-pro/raw/main/vercel-chinese.user.js)
