@@ -31,7 +31,7 @@ Vercel用户界面汉化脚本，支持自动将Vercel网站界面翻译为中�
    - Via 不需要安装插件
    - AdGuard 不需要安装插件
    - Gear 不需要安装插件
-   - 使用ScriptCat(脚本猫)出现的兼容问题概不负责。
+   - 使用Tampermonkey外其他插件出现的任何兼容问题概不负责
 
 2. 点击下方链接安装脚本：
    - [安装脚本（Github）](https://github.com/quan-ge/vercel-chinese-pro/raw/main/vercel-chinese.user.js)
