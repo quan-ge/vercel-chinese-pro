@@ -2,7 +2,7 @@
 // @name        Vercel 汉化 PRO
 // @namespace   https://github.com/quan-ge/vercel-chinese-pro
 // @description 汉化 Vercel 界面
-// @version     0.1.0
+// @version     0.2.1
 // @author      liyixin21,quange
 // @license     GPL-3.0
 // @match       *://*.vercel.app/*
@@ -39,10 +39,8 @@
         ['Flags', '选项'],
         ['Error loading dashboard', '加载仪表板时出错'],
         // 概览
-        ['Preview deployments that you have', '预览您最近访问或创建的部署'],
-        ['recently visited or created will appear here', '最近访问或创建的内容将在这里显示'],
+        ['Preview deployments that you have recently visited or created will appear here', '最近访问或创建的部署预览将在此处显示'],
         ['Last', '之前'],
-        ['on', '在'],
         ['Fluid Active CPU', '流动活跃 CPU'],
         ['Updated', '更新在'],
         ['Upgrade', '升级'],
@@ -53,6 +51,17 @@
         ['You don\'t have any integration installed', '您没有安装任何集成'],
         ['Explore more integrations to expand your Vercel development experience', '探索更多集成服务，以扩展您的Vercel开发体验'],
         ['Integrations Console', '集成控制台'],
+        // 部署记录
+        ['All deployments from', '所有部署来自'],
+        ['Select Date Range', '选择时间段'],
+        ['Provisioning', '配置中'],
+        // 设置
+        ['This is your team\'s visible name within Vercel. For example, the name of your company or department'， '这是您在Vercel中可见的团队名称。例如，您公司或部门的名称。'],
+        ['Please use 32 characters at maximum', '使用最多32个字符'],
+        ['My', '我的'],
+        ['Access Groups', '访问组'],
+        ['Log Drains', '日志输出'],
+        ['to', '至'],
 
         // liyixin21
         // 页面顶部导航
