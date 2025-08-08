@@ -23,9 +23,11 @@ Vercel用户界面汉化脚本，支持自动将Vercel网站界面翻译为中�
 ## 安装方法
 
 1. 首先需要安装用户脚本管理器扩展：
-   - Chrome/Edge: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
-   - Firefox: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
+   - Chrome: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 或 [ScriptCat（脚本猫）](https://violentmonkey.github.io/)
+   - Edge: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 或 [ScriptCat（脚本猫）](https://violentmonkey.github.io/)
+   - Firefox: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/) 或 [ScriptCat（脚本猫）](https://violentmonkey.github.io/)
    - Safari: 安装 [Tampermonkey](https://www.tampermonkey.net/)
+   - OperaNext: 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
    - 使用ScriptCat(脚本猫)出现的兼容问题概不负责。
 
 2. 点击下方链接安装脚本：
