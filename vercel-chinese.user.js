@@ -44,6 +44,7 @@
         ['Flags', '选项'],
         ['Error loading dashboard', '加载仪表板时出错'],
         // 概览
+        ['Exceeded free resources', '超出免费资源'],
         ['Preview deployments that you have recently visited or created will appear here', '最近访问或创建的部署预览将在此处显示'],
         ['Last', '之前'],
         ['Fluid Active CPU', '流动活跃 CPU'],
