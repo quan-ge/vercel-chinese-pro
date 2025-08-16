@@ -1,21 +1,23 @@
 // ==UserScript==
-// @name            Vercel 汉化 PRO
-// @name:en         Vercel Chinese PRO
-// @namespace       https://github.com/quan-ge/vercel-chinese-pro
-// @source          https://github.com/quan-ge/
-// @description     汉化 Vercel 界面
-// @description:en 	Unofficial Vercel Chinese Patch
-// @version         0.2.2
-// @author          liyixin21,quange
-// @license         GPL-3.0
-// @match           *://*.vercel.app/*
-// @match           *://vercel.com/*
-// @match           *://*.vercel.com/*
-// @icon            https://assets.vercel.com/image/upload/v1607554385/repositories/vercel/logo.png
-// @grant           none
-// @run-at          document-end
-// @updateURL       https://proxy.pipers.cn/https://github.com/quan-ge/vercel-chinese-pro/raw/main/vercel-chinese.user.js
-// @downloadURL     https://proxy.pipers.cn/https://github.com/quan-ge/vercel-chinese-pro/raw/main/vercel-chinese.user.js
+// @name               Vercel 汉化 PRO
+// @name:zh-CN         Vercel 汉化 PRO
+// @name:en            Vercel Chinese PRO
+// @namespace          https://github.com/quan-ge/vercel-chinese-pro
+// @source             https://github.com/quan-ge/
+// @description        汉化 Vercel 界面
+// @description:zh-CN  汉化 Vercel 界面
+// @description:en     Unofficial Vercel Chinese Patch
+// @version            0.3.0
+// @author             liyixin21,quange
+// @license            GPL-3.0
+// @match              *://*.vercel.app/*
+// @match              *://vercel.com/*
+// @match              *://*.vercel.com/*
+// @icon               https://assets.vercel.com/image/upload/v1607554385/repositories/vercel/logo.png
+// @grant              none
+// @run-at            document-end
+// @downloadURL https://update.greasyfork.org/scripts/546025/Vercel%20%E6%B1%89%E5%8C%96%20PRO.user.js
+// @updateURL https://update.greasyfork.org/scripts/546025/Vercel%20%E6%B1%89%E5%8C%96%20PRO.meta.js
 // ==/UserScript==
 
 (function() {
