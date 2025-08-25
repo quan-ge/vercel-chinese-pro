@@ -1,12 +1,8 @@
 // ==UserScript==
 // @name               Vercel 汉化 PRO
-// @name:zh-CN         Vercel 汉化 PRO
-// @name:en            Vercel Chinese PRO
 // @namespace          https://github.com/quan-ge/vercel-chinese-pro
 // @source             https://github.com/quan-ge/
 // @description        汉化 Vercel 界面
-// @description:zh-CN  汉化 Vercel 界面
-// @description:en     Unofficial Vercel Chinese Patch
 // @version            0.3.0
 // @author             liyixin21,quange
 // @license            GPL-3.0
@@ -42,7 +38,6 @@
     // Vercel界面中常见的英文词汇及其中文翻译
     const i18n = new Map([
         // QG
-        // 页面顶部导航
         // 页面顶部导航
         ['Flags', '选项'],
         ['Error loading dashboard', '加载仪表板时出错'],
