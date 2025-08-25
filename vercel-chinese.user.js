@@ -43,30 +43,36 @@
     const i18n = new Map([
         // QG
         // 页面顶部导航
-        ['Access Groups', '访问组'],
-        ['All deployments from', '所有部署来自'],
-        ['Current', '当前'],
-        ['Error loading dashboard', '加载仪表板时出错'],
-       ['Exceeded free resources', '超出免费资源'],
-        ['Experimentation', '实验性'],
-        ['Explore more integrations to expand your Vercel development experience', '探索更多集成服务，以扩展您的Vercel开发体验'],
+        // 页面顶部导航
         ['Flags', '选项'],
-        ['Fluid Active CPU', '流动活跃 CPU'],
-        ['for 2x more CPUs and faster builds', '获得双倍 CPU 资源和更快的构建速度'],
-        ['Integrations Console', '集成控制台'],
-        ['Last', '之前'],
-        ['Log Drains', '日志输出'],
-        ['My Account', '我的账户'],
-        ['No Integrations Installed', '没有已安装的集成服务'],
-        ['Please use 32 characters at maximum', '使用最多32个字符'],
+        ['Error loading dashboard', '加载仪表板时出错'],
+        // 概览
+        ['Exceeded free resources', '超出免费资源'],
         ['Preview deployments that you have recently visited or created will appear here', '最近访问或创建的部署预览将在此处显示'],
-        ['Provisioning', '配置中'],
-        ['Select Date Range', '选择时间段'],
-        ['This is your team\'s visible name within Vercel. For example, the name of your company or department', '这是您在Vercel中可见的团队名称。例如，您公司或部门的名称。'],
-        ['to', '至'],
+        ['Last', '之前'],
+        ['Fluid Active CPU', '流动活跃 CPU'],
         ['Updated', '更新在'],
         ['Upgrade', '升级'],
+        // 选项
+        ['Experimentation', '实验性'],
+        // 集成服务
+        ['No Integrations Installed', '没有已安装的集成服务'],
         ['You don\'t have any integration installed', '您没有安装任何集成'],
+        ['Explore more integrations to expand your Vercel development experience', '探索更多集成服务，以扩展您的Vercel开发体验'],
+        ['Integrations Console', '集成控制台'],
+        ['Current', '当前'],
+        // 部署记录
+        ['All deployments from', '所有部署来自'],
+        ['Select Date Range', '选择时间段'],
+        ['Provisioning', '配置中'],
+        ['for 2x more CPUs and faster builds', '获得双倍 CPU 资源和更快的构建速度'],
+        // 设置
+        ['This is your team\'s visible name within Vercel. For example, the name of your company or department', '这是您在Vercel中可见的团队名称。例如，您公司或部门的名称。'],
+        ['Please use 32 characters at maximum', '使用最多32个字符'],
+        ['My', '我的'],
+        ['Access Groups', '访问组'],
+        ['Log Drains', '日志输出'],
+        ['to', '至'],
 
         // liyixin21
         // 页面顶部导航
