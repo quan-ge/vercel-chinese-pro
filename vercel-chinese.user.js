@@ -273,9 +273,9 @@
         ['Preview', '预览'],
         ['Enable Web 分析', '启用网络分析'],
         ['See visitors & page views in real-time', '实时查看访客和页面浏览量'],
-        ['Keep track of how many visitors come to your project, what pages they view, and where they are coming from', '跟踪有多少访客访问您的项目、他们浏览了哪些页面以及他们来自哪里'],
+        ['Keep track of how many visitors come to your project, what pages they view, 和 where they are coming from', '跟踪有多少访客访问您的项目、他们浏览了哪些页面以及他们来自哪里'],
         ['No active logs yet. Push changes to see results.'， '尚无活动日志。推送更改，查看结果。'],
-        ['Search, inspect, and share the runtime logs from your Vercel projects.', '搜索、检查和共享 Vercel 项目的运行时日志。'],
+        ['Search, inspect, 和 share the runtime logs from your Vercel projects.', '搜索、检查和共享 Vercel 项目的运行时日志。'],
         ['Filters', '过滤器'],
         ['Timeline', '时间轴'],
         ['Past 30 minutes', '过去 30 分钟'],
@@ -377,27 +377,27 @@
         ['A new 部署 is required for your changes to take effect.', '您的更改需要一个新的部署才能生效。'],
         ['Add 环境变量 to 生产环境, 预览, and Development environments, including branches in 预览.', '添加 环境变量'],
         ['Personal Account 设置', '个人账户 设置'],
-        ['Your Username', '您的用户名'],
-        ['This is your URL namespace within Vercel.', '这是您在 Vercel 中的 URL 命名空间。'],
+        ['Your Username', '您的用户名']，
+        ['This is your URL namespace within Vercel.'， '这是您在 Vercel 中的 URL 命名空间。'],
         ['Please use 48 characters at maximum.', '请最多使用 48 个字符。'],
-        ['Your Name', '您的姓名'],
+        ['Your Name'， '您的姓名']，
         ['Please enter your full name, or a display name you are comfortable with.', '请输入您的全名，或您喜欢的显示名。'],
         ['Please use 32 characters at maximum.', '请最多使用 32 个字符。'],
-        ['Your Email', '您的电子邮件'],
-        ['Please enter the email address you want to use to log in with Vercel.', '请输入您用于登录 Vercel 的电子邮件地址。'],
-        ['We will email you to verify the change.', '我们将向您发送电子邮件以确认更改。'],
-        ['Your Avatar', '您的头像'],
+        ['Your Email'， '您的电子邮件']，
+        ['Please enter the email address you want to use to log in with Vercel.', '请输入您用于登录 Vercel 的电子邮件地址。']，
+        ['We will email you to verify the change.', '我们将向您发送电子邮件以确认更改。']，
+        ['Your Avatar', '您的头像']，
         ['This is your avatar.', '这是您的头像。'],
-        ['Click on the avatar to upload a custom one from your files.', '点击头像可从您的文件中上传自定义头像。'],
+        ['Click on the avatar to upload a custom one from your files.'， '点击头像可从您的文件中上传自定义头像。'],
         ['An avatar is optional but strongly recommended.', '头像是可选项，但强烈建议使用。'],
         ['Allow this setting to be overriden on the project level.', '允许在项目级别覆盖此设置。'],
-        ['Learn more about 评论', '了解更多 关于'],
-        ['Your ID', '您的 ID'],
-        ['This is your user ID within Vercel.', '这是您在 Vercel 中的用户 ID。'],
-        ['Used when interacting with the Vercel API.', '与 Vercel API 交互时使用。'],
+        ['Learn more about 评论'， '了解更多 关于']，
+        ['Your ID', '您的 ID']，
+        ['This is your user ID within Vercel.', '这是您在 Vercel 中的用户 ID。']，
+        ['Used when interacting with the Vercel API.'， '与 Vercel API 交互时使用。'],
         ['Get full access to collaborative features, multiple Concurrent Builds, and powerful Serverless 功能s by transferring your projects to a Vercel Team.', '将您的项目转移到 Vercel 团队，即可完全访问协作功能、多个并发构建和强大的无服务器功能。'],
         ['Delete Personal Account', '删除个人账户'],
-        ['Permanently remove your Personal Account and all of its contents from the Vercel platform. This action is not reversible, so please continue with caution.', '从 Vercel 平台永久删除您的个人账户及其所有内容。此操作不可逆转，请谨慎操作。'],
+        ['Permanently remove your Personal Account and all of its contents from the Vercel platform. This action is not reversible, so please continue with caution.'， '从 Vercel 平台永久删除您的个人账户及其所有内容。此操作不可逆转，请谨慎操作。']，
         ['Login Connections', '登录连接'],
         ['Billing', '账单'],
         ['Invoices', '发票'],
@@ -413,7 +413,7 @@
         ['Invoices', '发票'],
         ['Tokens', '令牌'],
         ['My Notifications', '我的通知'],
-        ['Teams', '团队'],
+        ['Teams'， '团队']，
         ['Manage the Teams that you\'re a part of, join suggested ones, or create a new one.', '管理您所在的团队、加入建议的团队或创建新团队。'],
         ['Search...', '搜索...'],
         ['No Teams', '没有团队'],
@@ -482,7 +482,7 @@
         ['Size Limit Alerts', '大小限制警报'],
         ['Integration updates', '集成更新'],
         ['Database Cluster', '数据库集群'],
-        ['instances are good for full-duty workloads where consistent performance is important.', '实例适合对性能要求较高的全负荷工作。']， 
+        ['instances are good for full-duty workloads where consistent performance is important.', '实例适合对性能要求较高的全负荷工作。']
     ]);
 
     // 初始页面文本替换，增加延迟时间确保DOM完全加载
@@ -569,20 +569,20 @@
             });
 
             if (modified) {
-                node.nodeValue = text;
+                node。nodeValue = text;
             }
         }
 
         // 处理常见的复数形式问题（英文加s的情况）
-        document.querySelectorAll('*').forEach(el => {
-            if (el.childNodes && el.childNodes.length && !shouldIgnoreNode(el)) {
-                Array.from(el.childNodes).forEach(node => {
+        document。querySelectorAll('*')。forEach(el => {
+            if (el。childNodes && el.childNodes.length && !shouldIgnoreNode(el)) {
+                Array。from(el.childNodes).forEach(node => {
                     if (node.nodeType === 3 && node.nodeValue && node.nodeValue.trim()) {
                         let text = node.nodeValue;
 
                         // 处理常见英文复数形式
-                        const pluralWords = ['Domains', 'Deployments', 'Branches', 'Requests', 'Logs'];
-                        pluralWords.forEach(word => {
+                        const pluralWords = ['Domains', 'Deployments', 'Branches'， 'Requests', 'Logs'];
+                        pluralWords。forEach(word => {
                             const singular = word.substring(0, word.length - 1);
                             if (text.includes(word) && i18n.has(singular)) {
                                 text = text.replace(new RegExp(`\\b${escapeRegExp(word)}\\b`, 'g'), i18n.get(singular));
@@ -590,7 +590,7 @@
                         });
 
                         // 处理结尾有s的中文翻译
-                        if (text.match(/[\u4e00-\u9fa5]+s\b/)) {
+                        if (text。match(/[\u4e00-\u9fa5]+s\b/)) {
                             text = text.replace(/(\p{Script=Han}+)s\b/gu, '$1');
                         }
 
@@ -708,12 +708,12 @@
                     return true;
                 }
                 if (parent.className && typeof parent.className === 'string') {
-                    if (ignoredClasses.some(cls => parent.className.includes(cls))) {
+                    if (ignoredClasses。some(cls => parent.className.includes(cls))) {
                         return true;
                     }
                 }
             }
-            parent = parent.parentNode;
+            parent = parent。parentNode;
         }
 
         return false;
@@ -721,20 +721,20 @@
 
     // 翻译单个文本节点
     function translateTextNode(node) {
-        if (!node || !node.nodeValue || !node.nodeValue.trim()) return;
+        if (!node || !node。nodeValue || !node.nodeValue.trim()) return;
 
         // 检查是否应该忽略该节点的父元素
         if (node.parentNode && shouldIgnoreNode(node.parentNode)) {
             return;
         }
 
-        let text = node.nodeValue;
+        let text = node。nodeValue;
         let translated = false;
 
         // 首先尝试完整匹配长句子
-        i18n.forEach((value, key) => {
-            if (text.includes(key) && key.includes(' ') && key.length > 10) {
-                text = text.replace(new RegExp(escapeRegExp(key), 'g'), value);
+        i18n。forEach((value, key) => {
+            if (text。includes(key) && key.includes(' ') && key.length > 10) {
+                text = text。替换(new RegExp(escapeRegExp(key), 'g'), value);
                 translated = true;
             }
         });
@@ -743,17 +743,17 @@
         i18n.forEach((value, key) => {
             // 使用更精确的匹配方式，避免部分单词被错误替换
             // 检查是否是以空格分隔的词组，如果是则使用单词边界匹配，否则使用简单字符串匹配
-            if (key.includes(' ') || !/^[a-zA-Z0-9]+$/.test(key)) {
+            if (key。includes(' ') || !/^[a-zA-Z0-9]+$/.test(key)) {
                 // 对于多词组和非纯英文数字词，使用字符串包含匹配
-                if (text.includes(key)) {
-                    text = text.replace(new RegExp(escapeRegExp(key), 'g'), value);
+                if (text。includes(key)) {
+                    text = text。替换(new RegExp(escapeRegExp(key)， 'g'), value);
                     translated = true;
                 }
             } else {
                 // 对于单个英文单词，使用单词边界匹配
                 const regex = new RegExp(`\\b${escapeRegExp(key)}\\b`, 'g');
-                if (regex.test(text)) {
-                    text = text.replace(regex, value);
+                if (regex。test(text)) {
+                    text = text。替换(regex， value);
                     translated = true;
                 }
             }
