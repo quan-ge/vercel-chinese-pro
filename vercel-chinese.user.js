@@ -7,7 +7,7 @@
 // @description        汉化 Vercel 界面
 // @description:zh-CN  汉化 Vercel 界面
 // @description:en     Unofficial Vercel Chinese Patch
-// @version            0.3.3
+// @version            0.3.5
 // @author             liyixin21,quange
 // @license            GPL-3.0
 // @match              *://*.vercel.app/*
