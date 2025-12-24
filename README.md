@@ -1,4 +1,4 @@
-# Vercel 汉化 PRO (Vercel Chinese PRO)
+# Vercel 汉化 (Vercel Chinese)
 
 Vercel用户界面汉化脚本,支持自动将Vercel网站界面翻译为中文。
 
